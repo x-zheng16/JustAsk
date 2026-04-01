@@ -6,7 +6,8 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2601.21233-b31b1b.svg)](https://arxiv.org/abs/2601.21233)
 [![Gallery](https://img.shields.io/badge/Gallery-System_Prompt_Open-22D3BB.svg)](https://x-zheng16.github.io/System-Prompt-Open/)
-[![GitHub](https://img.shields.io/github/stars/x-zheng16/JustAsk?style=social)](https://github.com/x-zheng16/JustAsk)
+[![GitHub stars](https://img.shields.io/github/stars/x-zheng16/JustAsk?style=social)](https://github.com/x-zheng16/JustAsk)
+[![GitHub forks](https://img.shields.io/github/forks/x-zheng16/JustAsk?style=social)](https://github.com/x-zheng16/JustAsk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/x-zheng16/JustAsk/commits/)
