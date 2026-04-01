@@ -40,8 +40,15 @@ Tested on **45** black-box commercial models | **85-95%** verified consistency |
 
 ---
 
+## News
+
+- **[2026-04]** Code and data open-sourced on [GitHub](https://github.com/x-zheng16/JustAsk).
+- **[2026-04]** [System Prompt Open Gallery](https://x-zheng16.github.io/System-Prompt-Open/) launched -- browse extracted system prompts from 45+ frontier models.
+- **[2026-01]** Paper posted on [arXiv](https://arxiv.org/abs/2601.21233).
+
 ## Table of Contents
 
+- [News](#news)
 - [Overview](#overview)
 - [Results](#results)
 - [Abstract](#abstract)
@@ -49,7 +56,7 @@ Tested on **45** black-box commercial models | **85-95%** verified consistency |
 - [Structure](#structure)
 - [Setup](#setup)
 - [Controlled Evaluation](#controlled-evaluation)
-- [Related Work](#related-work)
+- [Related Projects](#related-projects)
 - [Citation](#citation)
 - [Star History](#star-history)
 
