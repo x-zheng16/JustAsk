@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite our paper."
+title: "JustAsk"
+type: software
+authors:
+  - family-names: Zheng
+    given-names: Xiang
+  - family-names: Wu
+    given-names: Yutao
+  - family-names: Huang
+    given-names: Hanxun
+  - family-names: Li
+    given-names: Yige
+  - family-names: Ma
+    given-names: Xingjun
+  - family-names: Li
+    given-names: Bo
+  - family-names: Jiang
+    given-names: Yu-Gang
+  - family-names: Wang
+    given-names: Cong
+preferred-citation:
+  type: article
+  title: "Just Ask: Curious Code Agents Reveal System Prompts in Frontier LLMs"
+  authors:
+    - family-names: Zheng
+      given-names: Xiang
+    - family-names: Wu
+      given-names: Yutao
+    - family-names: Huang
+      given-names: Hanxun
+    - family-names: Li
+      given-names: Yige
+    - family-names: Ma
+      given-names: Xingjun
+    - family-names: Li
+      given-names: Bo
+    - family-names: Jiang
+      given-names: Yu-Gang
+    - family-names: Wang
+      given-names: Cong
+  journal: "arXiv preprint arXiv:2601.21233"
+  year: 2026
+  url: "https://arxiv.org/abs/2601.21233"
