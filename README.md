@@ -4,21 +4,31 @@
 
 ### Curious Code Agents Reveal System Prompts in Frontier LLMs
 
-[![arXiv](https://img.shields.io/badge/arXiv-2601.21233-b31b1b.svg)](https://arxiv.org/abs/2601.21233)
-[![Gallery](https://img.shields.io/badge/Gallery-System_Prompt_Open-22D3BB.svg)](https://x-zheng16.github.io/System-Prompt-Open/)
-[![GitHub stars](https://img.shields.io/github/stars/x-zheng16/JustAsk?style=social)](https://github.com/x-zheng16/JustAsk)
-[![GitHub forks](https://img.shields.io/github/forks/x-zheng16/JustAsk?style=social)](https://github.com/x-zheng16/JustAsk)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg)](https://github.com/x-zheng16/JustAsk/commits/)
-
-**We asked. They answered.**
-
-Tested on **45** black-box commercial models | **85-95%** verified consistency | **Zero** supervision
-
-[Paper](https://arxiv.org/abs/2601.21233) | [Gallery](https://x-zheng16.github.io/System-Prompt-Open/) | [Gallery Data](https://github.com/x-zheng16/System-Prompt-Open)
-
 </div>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2601.21233"><img src="https://img.shields.io/badge/arXiv-2601.21233-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://x-zheng16.github.io/System-Prompt-Open/"><img src="https://img.shields.io/badge/Gallery-System_Prompt_Open-22D3BB.svg" alt="Gallery"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.11+-blue.svg" alt="Python"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/x-zheng16/JustAsk/stargazers"><img src="https://img.shields.io/github/stars/x-zheng16/JustAsk?style=social" alt="Stars"></a>
+  <a href="https://github.com/x-zheng16/JustAsk/network/members"><img src="https://img.shields.io/github/forks/x-zheng16/JustAsk?style=social" alt="Forks"></a>
+</p>
+
+<h3 align="center">
+  <a href="https://arxiv.org/abs/2601.21233">Paper</a> &nbsp;&middot;&nbsp;
+  <a href="https://x-zheng16.github.io/System-Prompt-Open/">Gallery</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/x-zheng16/System-Prompt-Open">Gallery Data</a> &nbsp;&middot;&nbsp;
+  <a href="https://github.com/x-zheng16/JustAsk/issues">Issues</a>
+</h3>
+
+> [!CAUTION]
+> **Research use only.**
+> JustAsk is released exclusively for academic safety research, responsible disclosure, and evaluation of LLM security.
+> We do not condone or permit any use of this tool for unauthorized extraction, prompt theft, or exploitation of commercial systems.
 
 ---
 
@@ -41,15 +51,16 @@ Tested on **45** black-box commercial models | **85-95%** verified consistency |
 
 ---
 
-## News
+## Latest News
 
-- **[2026-04]** Code and data open-sourced on [GitHub](https://github.com/x-zheng16/JustAsk).
-- **[2026-04]** [System Prompt Open Gallery](https://x-zheng16.github.io/System-Prompt-Open/) launched -- browse extracted system prompts from 45+ frontier models.
-- **[2026-01]** Paper posted on [arXiv](https://arxiv.org/abs/2601.21233).
+| Date       | Update                                                                                                          |
+|:-----------|:----------------------------------------------------------------------------------------------------------------|
+| 2026-03    | Code and data open-sourced on [GitHub](https://github.com/x-zheng16/JustAsk)                                    |
+| 2026-03    | [System Prompt Open Gallery](https://x-zheng16.github.io/System-Prompt-Open/) launched with 45+ extracted system prompts |
+| 2026-01    | Paper posted on [arXiv](https://arxiv.org/abs/2601.21233)                                                       |
 
 ## Table of Contents
 
-- [News](#news)
 - [Overview](#overview)
 - [Results](#results)
 - [Abstract](#abstract)
@@ -59,7 +70,6 @@ Tested on **45** black-box commercial models | **85-95%** verified consistency |
 - [Controlled Evaluation](#controlled-evaluation)
 - [Related Projects](#related-projects)
 - [Citation](#citation)
-- [Star History](#star-history)
 
 ## Overview
 
@@ -155,8 +165,8 @@ OPENROUTER_API_KEY=sk-or-v1-your-key-here
 python src/skill_testing.py --model openai/gpt-5.2
 ```
 
-| Metric          | Description                        |
-| --------------- | ---------------------------------- |
+| Metric           | Description                        |
+| ---------------- | ---------------------------------- |
 | **Semantic Sim** | Embedding cosine similarity        |
 | **Secret Leak**  | Fraction of injected secrets found |
 
@@ -166,8 +176,13 @@ See `START.md` for detailed agent instructions.
 
 From the same team:
 
-- **[System Prompt Open](https://github.com/x-zheng16/System-Prompt-Open)** -- Gallery of extracted system prompts from 45+ frontier models.
-- **[Awesome Embodied AI Safety](https://github.com/xiangli-chen/Awesome-Embodied-AI-Safety)** -- Survey on safety challenges in embodied AI agents.
+- [System Prompt Open](https://github.com/x-zheng16/System-Prompt-Open) [![](https://img.shields.io/github/stars/x-zheng16/System-Prompt-Open?style=social)](https://github.com/x-zheng16/System-Prompt-Open) -- Gallery of extracted system prompts from 45+ frontier models
+- [ISC-Bench](https://github.com/wuyoscar/ISC-Bench) [![](https://img.shields.io/github/stars/wuyoscar/ISC-Bench?style=social)](https://github.com/wuyoscar/ISC-Bench) -- Internal Safety Collapse in Frontier LLMs
+- [Awesome-Embodied-AI-Safety](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) [![](https://img.shields.io/github/stars/x-zheng16/Awesome-Embodied-AI-Safety?style=social)](https://github.com/x-zheng16/Awesome-Embodied-AI-Safety) -- Safety in Embodied AI: Risks, Attacks, and Defenses
+- [Awesome-Large-Model-Safety](https://github.com/xingjunm/Awesome-Large-Model-Safety) [![](https://img.shields.io/github/stars/xingjunm/Awesome-Large-Model-Safety?style=social)](https://github.com/xingjunm/Awesome-Large-Model-Safety) -- Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety
+- [XTransferBench](https://github.com/HanxunH/XTransferBench) [![](https://img.shields.io/github/stars/HanxunH/XTransferBench?style=social)](https://github.com/HanxunH/XTransferBench) -- Super Transferable Adversarial Attacks on CLIP (ICML 2025)
+- [BackdoorLLM](https://github.com/bboylyg/BackdoorLLM) [![](https://img.shields.io/github/stars/bboylyg/BackdoorLLM?style=social)](https://github.com/bboylyg/BackdoorLLM) -- A Comprehensive Benchmark for Backdoor Attacks on LLMs (NeurIPS 2025)
+- [BackdoorAgent](https://github.com/Yunhao-Feng/BackdoorAgent) [![](https://img.shields.io/github/stars/Yunhao-Feng/BackdoorAgent?style=social)](https://github.com/Yunhao-Feng/BackdoorAgent) -- Backdoor Attacks on LLM-based Agent Workflows
 
 ## Citation
 
@@ -197,7 +212,7 @@ From the same team:
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=x-zheng16/JustAsk&type=Date&theme=dark" />
     <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=x-zheng16/JustAsk&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=x-zheng16/JustAsk&type=Date" width="800" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=x-zheng16/JustAsk&type=Date" width="600" />
   </picture>
 </a>
 
